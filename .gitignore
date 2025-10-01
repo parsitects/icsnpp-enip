@@ -12,10 +12,10 @@
 *.hlto
 
 # Zeek Test Files
-tests/.tmp/
-tests/.btest.failed.dat
-tests/*.log
-tests/tools/*.pcap
+testing/.tmp/
+testing/.btest.failed.dat
+testing/*.log
+testing/tools/*.pcap
 
 # Python Files
 __pycache__/
@@ -28,6 +28,6 @@ build/
 .inst.txt
 
 # Don't ignore baseline log files
-!tests/baseline/
-!tests/baseline/*/
-!tests/baseline/*/*.log
+!testing/baseline/
+!testing/baseline/*/
+!testing/baseline/*/*.log
